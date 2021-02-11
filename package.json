@@ -1,0 +1,23 @@
+{
+  "name": "shared-dependecies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongarce-portfolio/shared-dependencies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gongarce-portfolio/shared-dependencies/issues"
+  },
+  "homepage": "https://github.com/gongarce-portfolio/shared-dependencies#readme",
+  "devDependencies": {
+    "surge": "^0.21.7"
+  }
+}
