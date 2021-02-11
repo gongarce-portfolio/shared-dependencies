@@ -1,5 +1,20 @@
-deployment:
-  production:
-    branch: master
-    commands:
-      - surge --project ./src
+version: 2
+jobs:
+  deploy:
+    steps:
+      - checkout
+      - run:
+          name: Deploy
+          command: |
+            cat importmap.json
+            echo "Updating import map"
+            surge --project ./src
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - deploy:
+          context: deploy-context
+          filters:
+            branches:
+              only: master

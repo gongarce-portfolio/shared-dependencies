@@ -2,6 +2,6 @@
   "imports": {
     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
     "single-spa-angularjs": "https://cdn.jsdelivr.net/npm/single-spa-angularjs@4.1.0/lib/single-spa-angularjs.js",
-    "angular/core": "https://cdn.jsdelivr.net/npm/@angular/core@9.1.7/esm5/core.min.js"
+    "@angular/core": "https://cdn.jsdelivr.net/npm/@angular/core@9.1.7/esm5/core.min.js"
   }
 }
